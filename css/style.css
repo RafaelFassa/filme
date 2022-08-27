@@ -107,7 +107,7 @@ body {
 .isso {
     color: white;
     font-family: Roboto;
-    margin-left: 0;
+    margin-left: 3vh;
 }
 
 .bg-img {
@@ -133,6 +133,18 @@ body {
 }
 
 .btn-rede:hover {
+    background: white;
+    color: black;
+    transition: all 0.3s;
+}
+
+.bg-btnp {
+    background: black;
+    color: rgb(56, 118, 235);
+    transition: all 0.3s;
+}
+
+.bg-btnp:hover {
     background: white;
     color: black;
     transition: all 0.3s;
